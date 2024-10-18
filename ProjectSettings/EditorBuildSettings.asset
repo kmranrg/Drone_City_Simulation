@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SimplePoly City - Low Poly Assets/Demo/SimplePoly City - Low Poly
+      Assets_Demo Scene.unity
+    guid: 7e6d3f4e5d896154ab4438845532ac3e
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5c9acb112a9022a4aa5cf43b5e3fe227, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2eef841e6949c024ebdf87f20232ead6, type: 2}

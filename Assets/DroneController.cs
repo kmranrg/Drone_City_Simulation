@@ -70,6 +70,7 @@ public class DroneController : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.Z))
         {
+            
             yaw = -fastRotationSpeed;
         }
         else if (Input.GetKey(KeyCode.C))
