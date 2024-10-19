@@ -9068,11 +9068,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!4 &453694815 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6526695301406479219, guid: 350b4741b5a436848bf0a8ec4fb04036, type: 3}
-  m_PrefabInstance: {fileID: 1805314851}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &455054926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9654,8 +9649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d4a5195d43d1242a5169602d2662b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 453694815}
-  offsetPosition: {x: 0, y: 5, z: -10}
+  target: {fileID: 1198473959}
+  offsetPosition: {x: 0, y: 3, z: -8}
   offsetRotation: {x: 0, y: 0, z: 0}
   positionSmoothness: 20
   rotationSmoothness: 1
@@ -35330,7 +35325,6 @@ GameObject:
   - component: {fileID: 1704015173}
   - component: {fileID: 1704015171}
   - component: {fileID: 1704015170}
-  - component: {fileID: 1704015175}
   - component: {fileID: 1704015176}
   m_Layer: 0
   m_Name: Main Camera
@@ -35364,8 +35358,8 @@ Camera:
   m_GameObject: {fileID: 1704015169}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.36078432, g: 0.5568628, b: 0.7137255, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -35421,23 +35415,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2023405622}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1704015175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704015169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15d4a5195d43d1242a5169602d2662b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1198473959}
-  offsetPosition: {x: 0, y: 2, z: -9}
-  offsetRotation: {x: 0, y: 0, z: 0}
-  positionSmoothness: 20
-  rotationSmoothness: 1
 --- !u!114 &1704015176
 MonoBehaviour:
   m_ObjectHideFlags: 0
