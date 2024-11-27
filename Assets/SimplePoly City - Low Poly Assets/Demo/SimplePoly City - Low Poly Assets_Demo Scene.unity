@@ -504,12 +504,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 397348253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 023e1e1caef45c04fb2c503495b36949, type: 3}
+  m_Script: {fileID: 11500000, guid: f3802a4223991e54c9e37adcd8e97053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vrHeadset: {fileID: 1704015174}
-  movementThreshold: 0.1
-  movementSpeed: 2
+  Leonard: {fileID: 1176566479}
+  XRHeadset: {fileID: 475665475}
+  animator: {fileID: 1176566480}
+  groundLevel: 0
+  animationThreshold: 0.1
 --- !u!1 &1198473958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309936502713097147, guid: 350b4741b5a436848bf0a8ec4fb04036, type: 3}
